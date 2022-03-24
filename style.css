@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+    
+}
+
+body {
+    background-color: rgb(245, 68, 68)
+    ;
+    height: 100%;
+
+}
+
+.logo {
+    height: 200px;
+}
+
+.cabecalho {
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     padding: 25px;
+}
+
+.item-menu{
+    font-size: 50px;
+}
+.menu {
+   gap: 65px;
+    display: flex;
+    flex-direction: row;
+    margin: 
+}
+
+.area-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: solid 2px black;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.catalogo {
+   height: 600px;
+   border: double 10px;
+   border-radius: 5px;
+   box-shadow: inset 0 0 1em rgb(90, 49, 1), 0 0 1em red;
+
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center ;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 650;
+}
+
+.titulo {
+    display: flex;
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+.botao {
+    height: 109px;
+    width: 300px;
+    border:none;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: rgb(250, 216, 171);
+    cursor:pointer
+
+}
+.botao:hover{
+    background-color: rgb(185, 150, 105);
+    transition: 300ms;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 40px;
+    border-top: solid 2px black;
+    border-radius: 10px;
+}
+
+
+
